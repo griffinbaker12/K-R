@@ -10,3 +10,8 @@ print()
 
 for far in range(0, 320, 20):
     print_conv(far)
+
+print()
+
+for far in range(300, -1, -20):
+    print_conv(far)
