@@ -1,0 +1,3 @@
+this is a backspace: \b
+this is a tab: \t
+hey, this is a new line: \n
