@@ -11,7 +11,7 @@ int main() {
     printf("\n");
 
     double nc2;
-    for (nc2 = 0; getchar() != EOF; ++nc2)
+    for (nc2 = 0; getchar() != EOF; nc2++)
         ;
     printf("nc2 is: %.0f\n", nc2);
 }
