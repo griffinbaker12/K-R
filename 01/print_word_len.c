@@ -34,6 +34,7 @@ int main() {
 
     for (int i = max_freq; i > 0; i--) {
         for (int j = 1; j <= MAX_WORD_LEN; j++) {
+            printf("j is %d", j);
             if (word_len[j] >= i)
                 printf("%2c", '*');
             else
